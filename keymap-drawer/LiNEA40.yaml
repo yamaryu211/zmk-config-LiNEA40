@@ -1,0 +1,683 @@
+layout: {zmk_keyboard: LiNEA40}
+layers:
+  DEFAULT_WIN:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - {t: L, h: SCROLL_VER_WIN}
+  - {t: '-', h: SCROLL_HOR_WIN}
+  - {t: Z, h: LEFT SHIFT}
+  - {t: X, h: LCTRL}
+  - {t: C, h: LEFT ALT}
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', h: LEFT ALT, s: '!'}
+  - {t: ., h: LCTRL, s: '?'}
+  - {t: /, h: LEFT SHIFT, s: \}
+  - {t: LANGUAGE 2, h: NUM_WIN}
+  - Sft+F10
+  - {t: TAB, h: LEFT WIN}
+  - LEFT ALT
+  - {t: DELETE, h: LCTRL}
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: ENTER, h: NUM_WIN}
+  - {t: BACKSPACE, h: SYMBOL_WIN}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LANGUAGE 1, h: FUNC_SCROLL_WIN}
+  DEFAULT_MAC:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - {t: L, h: SCROLL_VER_MAC}
+  - {t: '-', h: SCROLL_HOR_MAC}
+  - {t: Z, h: LEFT SHIFT}
+  - {t: X, h: LEFT GUI}
+  - {t: C, h: LEFT ALT}
+  - {t: V, h: LEFT CONTROL}
+  - B
+  - N
+  - {t: M, h: LEFT CONTROL}
+  - {t: ',', h: LEFT ALT, s: '!'}
+  - {t: ., h: LEFT GUI, s: '?'}
+  - {t: /, h: LEFT SHIFT, s: \}
+  - {t: LANGUAGE 2, h: NUM_MAC}
+  - Ctl+LEFT COMMAND
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: DELETE, h: LEFT COMMAND}
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: ENTER, h: NUM_MAC}
+  - {t: BACKSPACE, h: SYMBOL_MAC}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LANGUAGE 1, h: FUNC_SCROLL_MAC}
+  NUM_WIN:
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - Gui+TAB
+  - ''
+  - Alt+PRINTSCREEN
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - Sft+=
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - '*'
+  - {t: KBD_SETTING, type: held}
+  - {t: ▽, type: trans}
+  - Sft+LEFT WIN
+  - Sft+LEFT ALT
+  - Sft+LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KBD_SETTING
+  NUM_MAC:
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+Gui+4
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - Sft+=
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - Gui+LEFT
+  - Gui+DOWN
+  - Gui+UP
+  - Gui+RIGHT
+  - '*'
+  - {t: KBD_SETTING, type: held}
+  - Ctl+Gui+LEFT SHIFT
+  - Sft+LEFT CONTROL
+  - Sft+LEFT ALT
+  - Sft+LEFT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KBD_SETTING
+  SYMBOL_WIN:
+  - ''''
+  - '"'
+  - '!'
+  - '?'
+  - '~'
+  - \
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - '%'
+  - '@'
+  - ;
+  - $
+  - <
+  - '>'
+  - '#'
+  - (
+  - )
+  - '|'
+  - '='
+  - {t: ▽, type: trans}
+  - '*'
+  - ':'
+  - ^
+  - '`'
+  - '&'
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+LEFT GUI
+  - Sft+LEFT ALT
+  - Sft+LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYMBOL_MAC:
+  - ''''
+  - '"'
+  - '!'
+  - '?'
+  - '~'
+  - \
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - '%'
+  - '@'
+  - ;
+  - $
+  - <
+  - '>'
+  - '#'
+  - (
+  - )
+  - '|'
+  - '='
+  - {t: ▽, type: trans}
+  - '*'
+  - ':'
+  - ^
+  - '`'
+  - '&'
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+LCTRL
+  - Sft+LEFT ALT
+  - Sft+LEFT GUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  FUNC_SCROLL_WIN:
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - Ctl+T
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - Ctl+W
+  - Sft+Gui+S
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - Ctl+F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  FUNC_SCROLL_MAC:
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - Gui+T
+  - Gui+PAGE UP
+  - Gui+PAGE DOWN
+  - Gui+W
+  - Sft+Gui+4
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - Gui+F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Gui+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  AML:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  KBD_SETTING:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bt0_win'
+  - '&bt1_mac'
+  - '&bt2_iPad'
+  - '&bt3_iPhone'
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SCROLL_VER_WIN:
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - ''
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - Sft+Gui+S
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - {type: held}
+  - {t: ▽, type: trans}
+  - F10
+  - Ctl+F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SCROLL_VER_MAC:
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - ''
+  - Gui+PAGE UP
+  - Gui+PAGE DOWN
+  - ''
+  - Sft+Gui+4
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - {type: held}
+  - {t: ▽, type: trans}
+  - F10
+  - Gui+F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Gui+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SCROLL_HOR_WIN:
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - ''
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - Sft+Gui+S
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {type: held}
+  - F10
+  - Ctl+F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SCROLL_HOR_MAC:
+  - F12
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - ''
+  - Gui+PAGE UP
+  - Gui+PAGE DOWN
+  - ''
+  - Sft+Gui+4
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {type: held}
+  - F10
+  - Gui+F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Gui+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GESTURE_WIN:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GESTURE_MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [11, 12]
+  k: TAB
+- p: [12, 13]
+  k: Sft+TAB
+- p: [0, 1]
+  k: ESCAPE
+- p: [16, 17]
+  k: '&mkp MB3'
