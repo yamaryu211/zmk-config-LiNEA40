@@ -94,8 +94,19 @@
         triggers-per-rotation = <8>;
     };
 
+    // 左側のビルド時のエラー防止
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
+    };
+};
+
+// 左側のビルド時のエラー防止
+&spi0 {
+    status = "disabled";
+
+    trackball: trackball@0 {
+        status = "disabled";
+        reg = <0>;
     };
 };

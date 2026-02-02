@@ -1,0 +1,6 @@
+name: LiNEA40
+build:
+  settings:
+    board_root: .
+  cmake: app
+  kconfig: app/Kconfig
