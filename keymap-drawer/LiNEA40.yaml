@@ -32,8 +32,8 @@ layers:
   - {t: ., h: LCTRL, s: '?'}
   - {t: /, h: LEFT SHIFT, s: \}
   - {t: LANGUAGE 2, h: NUM_WIN}
-  - Sft+F10
-  - {t: TAB, h: LEFT WIN}
+  - LEFT WIN
+  - ''
   - LEFT ALT
   - {t: DELETE, h: LCTRL}
   - {t: SPACE, h: LEFT SHIFT}
@@ -74,8 +74,8 @@ layers:
   - {t: ., h: LEFT GUI, s: '?'}
   - {t: /, h: LEFT SHIFT, s: \}
   - {t: LANGUAGE 2, h: NUM_MAC}
-  - Ctl+LEFT COMMAND
   - LEFT CONTROL
+  - ''
   - LEFT ALT
   - {t: DELETE, h: LEFT COMMAND}
   - {t: SPACE, h: LEFT SHIFT}
@@ -116,8 +116,8 @@ layers:
   - END
   - '*'
   - {t: KBD_SETTING, type: held}
-  - {t: ▽, type: trans}
   - Sft+LEFT WIN
+  - ''
   - Sft+LEFT ALT
   - Sft+LEFT CONTROL
   - {t: ▽, type: trans}
@@ -158,8 +158,8 @@ layers:
   - Gui+RIGHT
   - '*'
   - {t: KBD_SETTING, type: held}
-  - Ctl+Gui+LEFT SHIFT
   - Sft+LEFT CONTROL
+  - ''
   - Sft+LEFT ALT
   - Sft+LEFT GUI
   - {t: ▽, type: trans}
@@ -200,8 +200,8 @@ layers:
   - {t: ▽, type: trans}
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+LEFT GUI
+  - Sft+LEFT WIN
+  - ''
   - Sft+LEFT ALT
   - Sft+LCTRL
   - {t: ▽, type: trans}
@@ -242,8 +242,8 @@ layers:
   - {t: ▽, type: trans}
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+LCTRL
+  - Sft+LEFT CONTROL
+  - ''
   - Sft+LEFT ALT
   - Sft+LEFT GUI
   - {t: ▽, type: trans}
